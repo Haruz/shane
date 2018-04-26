@@ -35,6 +35,13 @@ body {
     padding-top: 56px;
   }
 }
+.boxz{
+	
+	margin-top: 1em;
+	 box-shadow: 1px 1px 1.5px 1px rgba(0,0,0,0.35);
+	width: 80%;
+	margin-left: 10%;
+}
 
 .portfolio-item {
   margin-bottom: 30px;
@@ -42,4 +49,7 @@ body {
 
 .pagination {
   margin-bottom: 30px;
+}
+h5{
+	padding: 1em;
 }
