@@ -701,6 +701,16 @@ STYLE SWITCHER FOR DEMO
   border: 1px solid transparent;
   border-radius: 0rem;
 }
+.section-steps {
+    background-color: aliceblue;
+    background-image: linear-gradient(rgba(3,3,3,0.8),#000), url(img/grey-background-for-site11.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: whitesmoke;
+}
+.section-first {
+    background-attachment: fixed;
+}
 
 .navbar-light .navbar-brand {
   color: #8865FF;
