@@ -115,29 +115,29 @@ $(function () {
     /* =========================================
      * reference functionality
      *  =======================================*/
-    $('.reference a').on('click', function (e) {
+    // $('.reference a').on('click', function (e) {
 
-        e.preventDefault();
+    //     e.preventDefault();
 
-        var title = $(this).find('.reference-title').text(),
-            description = $(this).siblings('.reference-description').html();
+    //     var title = $(this).find('.reference-title').text(),
+    //         description = $(this).siblings('.reference-description').html();
 
-        $('#detail-title').text(title);
-        $('#detail-content').html(description);
+    //     $('#detail-title').text(title);
+    //     $('#detail-content').html(description);
 
-        var images = $(this).siblings('.reference-description').data('images').split(',');
-        if (images.length > 0) {
-            sliderContent = '';
-            for (var i = 0; i < images.length; ++i) {
-                sliderContent = sliderContent + '<div class="item"><img src=' + images[i] + ' alt="" class="img-fluid"></div>';
-            }
-        } else {
-            sliderContent = '';
-        }
+    //     var images = $(this).siblings('.reference-description').data('images').split(',');
+    //     if (images.length > 0) {
+    //         sliderContent = '';
+    //         for (var i = 0; i < images.length; ++i) {
+    //             sliderContent = sliderContent + '<div class="item"><img src=' + images[i] + ' alt="" class="img-fluid"></div>';
+    //         }
+    //     } else {
+    //         sliderContent = '';
+    //     }
 
-        openReference(sliderContent);
+    //     openReference(sliderContent);
 
-    });
+    // });
 
     function openReference(sliderContent) {
         $('#detail').slideDown();
