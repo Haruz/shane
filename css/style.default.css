@@ -428,7 +428,7 @@ nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover {
   background: none;
   border: none;
   cursor: pointer;
-  color: #4fbfa8;
+  color: #8865FF;
   outline: none;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -1438,12 +1438,12 @@ body {
 }
 
 a {
-  color: #4fbfa8;
+  color: #8865FF;
   text-decoration: none;
 }
 
 a:hover, a:focus {
-  color: #348e7b;
+  color: #8825AF;
   text-decoration: underline;
 }
 
