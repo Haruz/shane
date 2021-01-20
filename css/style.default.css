@@ -163,12 +163,12 @@ nav.navbar a.nav-link {
 
 nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover {
   color: #333;
-  border-top-color: #4fbfa8;
+  border-top-color: #8865FF;
 }
 
 @media (max-width: 1199.98px) {
   nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover {
-    color: #4fbfa8;
+    color: #8865FF;
   }
 }
 
@@ -311,7 +311,7 @@ nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover {
 }
 
 .testimonials .item .testimonial .bottom .icon {
-  color: #4fbfa8;
+  color: #8865FF;
   font-size: 30px;
   float: left;
   width: 20%;
@@ -815,7 +815,7 @@ STYLE SWITCHER FOR DEMO
 
 .btn-link {
   font-weight: 400;
-  color: #4fbfa8;
+  color: #8865FF;
 }
 
 .btn-link:hover {

@@ -9,13 +9,6 @@
 	margin-left: 6%;
 	margin-top: 2%;
 }
-.section-steps {
-    background-color: aliceblue;
-    background-image: linear-gradient(rgba(3,3,3,0.8),#000), url(img/grey-background-for-site11.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    color: whitesmoke;
-}
 
 .pro{
 	width: 20em;
